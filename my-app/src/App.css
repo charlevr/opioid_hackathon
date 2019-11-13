@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.MAT {
+  order: 1
+}
+
+.Location {
+  order: 2
+}
+
+.Results {
+  order: 3
+}

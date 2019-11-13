@@ -1,0 +1,96 @@
+.MAT {
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    position: absolute;
+    width: 404px;
+    height: 42px;
+    left: 122px;
+    top: 80px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+  
+    color: #000000;
+  }
+
+.selectMAT {
+    position: absolute;
+    width: 146px;
+    height: 23px;
+    left: 122px;
+    top: 162px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  
+    color: #000000;
+  }
+  
+  .selectMATDescription {
+    position: absolute;
+    width: 647px;
+    height: 14px;
+    left: 122px;
+    top: 195px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    color: #000000;  
+  }
+  
+.MATText {
+    order: 1;
+}
+
+.MATButtonsWrapper {
+    order: 2;
+  
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 122px;
+    top: 226px;
+  
+    width: 25%;
+  }
+
+.MATButtons {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.MATButton1 {
+  order: 1;
+  width: 5%
+}
+
+.MATButton2 {
+  order: 2;
+  width: 5%
+}
+
+.MATButton3 {
+  order: 3;
+  width: 5%
+}
+
+.MATButton4 {
+    order: 4;
+    width: 5%
+  }

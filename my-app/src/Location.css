@@ -1,0 +1,24 @@
+.Location {
+    position: absolute;
+    width: 410px;
+    height: 23px;
+    left: 60px;
+    top: 150px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    order: 1;
+}
+
+.button2 {
+    order: 2;
+}
+
+.button3 {
+    order: 3;
+}
