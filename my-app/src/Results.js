@@ -1,6 +1,23 @@
 import React, { Component } from 'react';
 
+// My imports
+import DataTable from './DataTable';
+
 export class Results extends Component {
+    state = {
+        headers: [],
+        data: [{
+            "prefix": "dr.", "name": "ackerman",
+            "deg": "dr.", "address": "1910 pioneer way",
+            "city": "asdfsdf", "postalCode": "2345",
+            "tele": "999", "fax": "l234k23r",
+        },
+        {
+            "prefix": "dr.", "name": "ackerman",
+            "deg": "dr.", "address": "1910 pioneer way",
+        }]
+    }
+
     getStyle = () => {
         return {
 
@@ -40,8 +57,8 @@ export class Results extends Component {
         }
     }
 
-    click = () => {
-
+    applyClick = () => {
+        this.forceUpdate()
     }
 
     render() {
@@ -56,14 +73,18 @@ export class Results extends Component {
                 </div>
                 </button>
 
-                <button
+                {/* <button
                     style={this.getStyle()}
                     onClick={this.click}>
 
                     <div style={this.getTextStyle()}>
                         Reset
                 </div>
-                </button>
+                </button> */}
+
+                <DataTable
+                    data={this.state.data} />
+
             </div>
         )
     }

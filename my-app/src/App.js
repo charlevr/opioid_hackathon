@@ -37,6 +37,10 @@ export class App extends Component {
 
   }
 
+  update = () => {
+    this.forceUpdate()
+  }
+
   render() {
     return (
       <div className="App">
