@@ -1,5 +1,9 @@
 # opioid_hackathon
 
+## To test:
+
+-Copy/paste code into console on chrome lol
+
 ## Whats working:
 
 - Gets all necessary information for doctors
